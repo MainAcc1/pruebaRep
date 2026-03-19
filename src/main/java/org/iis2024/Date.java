@@ -48,7 +48,14 @@ public class Date {
     return year;
   }
 
-  /**
+    public Date(int tag, int monat, int jahr) {
+        this.day = tag;
+        this.month = monat;
+        this.year = jahr;
+    }
+
+
+    /**
    * Constructs a Date object representing a specific day, month, and year.
    *
    * @param day The day of the month (1-31).
