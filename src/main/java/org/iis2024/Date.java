@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
-    private int fieldAddedByCollaborator;
+  private int fieldAddedByCollaborator;
   private final int day;
   private final int month;
   private final int year;
@@ -91,5 +91,8 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+  }
+  public void methodAddedByOwner() {
+	  System.out.println("Metodo añadido por Álvaro.");
   }
 }
